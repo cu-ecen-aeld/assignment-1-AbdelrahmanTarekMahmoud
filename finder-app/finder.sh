@@ -18,6 +18,6 @@ fileCount=$(find "$inDir" -type f | wc -l)
 lineCount=$( grep -rc "$inDir" -e "inStr" | wc -l)
 echo "The number of files are " $fileCount " and the  number of matching lines are " $fileCount
 else 
-	echo " semih not a directry"
+	echo " not a directry"
 	exit 1
 fi
