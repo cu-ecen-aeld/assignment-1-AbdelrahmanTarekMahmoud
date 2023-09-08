@@ -21,3 +21,4 @@ else
 	echo " not a directry"
 	exit 1
 fi
+#
